@@ -1,22 +1,3 @@
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\(','\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 Exploring Neural Data Final Project
 ===================================
 
@@ -30,4 +11,6 @@ I calculated the average frequency of neurons within discrete time intervalls of
 
 ## Figures
 
-![](https://raw.githubusercontent.com/sagar87/Exploring-Neural-Data-Final-Project/master/survey%20data/sur1billiards00.png)![](https://raw.githubusercontent.com/sagar87/Exploring-Neural-Data-Final-Project/master/survey%20single%20unit/sur1subilliards00.png)
+<img src="https://raw.githubusercontent.com/sagar87/Exploring-Neural-Data-Final-Project/master/survey%20data/sur1billiards00.png" alt="alt text" style="width:500;height:400">
+
+<img src="https://raw.githubusercontent.com/sagar87/Exploring-Neural-Data-Final-Project/master/survey%20single%20unit/sur1subilliards00.png" alt="alt text" style="width:500;height:400">
