@@ -1,0 +1,7 @@
+import Image
+import ImageChops
+
+im1 = Image.open("splash.png")
+im2 = Image.open("splash2.png")
+
+diff = ImageChops.difference(im2, im1)
